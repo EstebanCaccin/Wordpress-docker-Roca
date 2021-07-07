@@ -1,0 +1,614 @@
+/* GENERAL */
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+
+html {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: transparent!important;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+address,
+big,
+cite,
+code,
+em,
+font,
+img,
+small,
+strike,
+sub,
+sup,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tr,
+th,
+td {
+	font-family: 'rocablack';
+	border: none;
+	font-size: inherit;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;
+	
+}
+.bg-white {
+    background: #FFFFFF;
+    padding-bottom: 0.5rem;
+}
+//Home
+.header-titles {
+    margin-left: 6rem!important;
+    margin-top: 5rem!important;
+    height: 80px;
+    width: 260px
+}
+.nav_a a {
+   
+        height: 18px;
+        width: 77px;
+        color: #FFFFFF!important;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 4px;
+        line-height: 22px;  
+} 
+.nav_a2 a {
+    
+    font-weight: 300;
+    position:relative;
+    left: 0rem;
+    top: -1.7rem;
+    color: black!important;
+    text-decoration: none!important;
+    display: inline-block;
+    text-align: center;
+    line-height: 5.5rem!important;
+    height: 56px;
+    width: 160px;
+    opacity: 0.75;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    font-size: 1.7rem;
+    
+    
+}
+.nav_a2 a:hover  {
+    background-color: black;
+    
+    color:#FFFFFF!important; 
+}
+.header-navigation-wrapper {
+    margin-top: 7rem;
+    margin-right: 5rem;
+}
+
+// OCULTA EL FOOTER EN PANTALLA PRINCIPAL
+.page-id-38 #site-footer {
+    display : none;
+    }
+.container {
+    margin-top: 28rem;
+    margin-left: 12rem
+}
+.container_row1 {
+    display: inline-block;
+    margin-right: 11rem;
+}
+.container_row {
+    display: inline-block;
+    margin-right: 5.5rem;
+    margin-left: 8rem;
+}
+.home_h2_mia, .home_-p2 {
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 6.5rem;
+}
+.home_h2, .home_p {
+    opacity: 0.5;
+    font-weight: 300;
+    color: #FFFFFF; 
+    font-size: 6.5rem;
+}
+.home_p, .home_miami {
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.home_h2_mia, .home_h2 {
+    margin: 0 0 2rem 0;
+}
+
+ 
+.footer-video p {
+    display: inline-block;    
+}
+.footer-video {
+    font-weight: 300;
+    color: #FFFFFF!important;
+    text-decoration: none!important;
+    display: inline-block;
+    text-align: center;
+    line-height: 5.5rem!important;
+    height: 56px;
+    width: 180px;
+    opacity: 0.75;
+    border-radius: 30px;
+    background-color: black;
+    font-size: 1.7rem;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-right: 0;
+    margin-left: 5%;
+}
+.footer-video:hover  {
+    background-color: #FFFFFF;
+    color:black!important; 
+}
+.footer-icon {
+    
+    position: relative;
+    top: 15%;
+    right: -60%;
+}
+.footer-icon, .footer-icon-all-row {
+    display: inline-block;
+}
+a .button, .button {
+    background:transparent!important;
+    color: #FFFFFF!important;
+}
+a .button-footer, .button-footer {
+    background:transparent!important;
+    color: black!important;
+}
+.fa-instagram, .fa-facebook-f, .fa-youtube, .fa-linkedin-in {
+   font-size: 4.0rem;
+}
+.footer-icon-row {
+    display: inline-block;
+   
+}
+//end Home
+
+//About
+.about_h1, .citymiami_h1 {
+    color: #FFFFFF;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 100;
+    font-weight: lighter;
+    font-size: 12rem;
+    margin-left: 0;
+    
+}
+.contact_h1 {
+    opacity: 0.6;
+    color: #FFFFFF;
+    font-family: 'rocablack';
+    font-size: 46px;
+    letter-spacing: 0.86px;
+    line-height: 67px;
+    text-align: center;
+}
+
+.section-inner-about, .section-inner-city-miami {
+    margin-left: 13rem;
+    margin-top: 18rem;
+}
+.section-main, .section-wrapper {
+    background-color: #FFFFFF;
+    max-width: 1920px;
+    
+}
+.section-main-h2 {
+    margin-inline-start: initial;
+    margin-left: 12rem;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 13.33px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.img-watch-video img, #watch-video-button {
+ width: 100%;
+ height: 100%;
+ padding: 0;
+}
+.subt {
+  color: #666666;
+  font-family: "PT Serif", serif;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-left: 12rem;
+}
+.p1t {
+    color: #333333;
+    font-family: "PT Serif", serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+.p1 {
+    color: #666666;
+    font-family: "PT Serif", serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 36px;
+    
+}
+.p1, .p1t {
+    margin-left: 22rem;
+}
+.p1t-p1 {
+    margin-top: 6rem;
+    background: #FFFFFF;
+}
+.section-wrapper-h2 {
+  color: #0087C3;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-left: 11rem;
+}
+#site-footer-all {
+    background: #FFFFFF!important;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.container-footer {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+.container-footer img {
+    margin-left: 11rem;
+}
+.footer-icon-all {
+    margin-right: 8rem;
+}
+.footer-icon-all-row {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+#row-line {
+  border: 1px solid #EEEEEE;
+}
+.footer-p1 {
+    color: #AAAAAA;
+    font-family: 'rocablack';
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-left: 8rem;
+}
+.footer-p2 {
+    color: #AAAAAA;
+    font-family: 'rocablack';
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    line-height: 24px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 8rem;
+    
+}
+
+.footer-icon-all-row {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.post-inner {
+ background: #FFFFFF;
+}
+#site-content-about {
+   padding-bottom: 3rem;
+   background: #FFFFFF;
+}
+.container-contact label { 
+  border: none;
+  opacity: 0.75;
+  color: #0087C3;
+  font-family: 'rocablack';
+  font-size: 14px;
+  letter-spacing: 2.11px;
+  line-height: 17px;
+}
+.container-contact label span input {
+    color: #666666;
+    font-family: "PT Serif", serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px #666666;
+}
+#send {
+    border-radius: 30px;
+    background-color: #0087C3;
+    font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 22px;
+}
+.entry-content {
+    padding-bottom: 8rem;
+}
+.wpcf7 {
+    background: #FFFFFF;
+    margin-top: 5rem;
+}
+#contact-form-main {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.section-main-contact  {
+    padding-top: 10rem;
+    background: #FFFFFF;
+}
+.footer-video-miami {
+    margin-top: 0;
+    font-weight: 300;
+    color: #FFFFFF!important;
+    text-decoration: none!important;
+    display: inline-block;
+    text-align: center;
+    line-height: 5.5rem!important;
+    height: 56px;
+    width: 230px;
+    opacity: 0.75;
+    border-radius: 30px;
+    background-color: black;
+    font-size: 1.7rem;
+    margin-bottom: 5%;
+    margin-right: 0;
+    margin-left: 11rem;
+}
+.footer-video-miami p {
+    display: inline-block;    
+}
+.miami_h1 {
+    opacity: 0.6;
+    color: #FFFFFF;
+    font-family: 'rocablack';
+    font-size: 44px;
+    letter-spacing: 0.86px;
+    line-height: 67px;
+    margin-left: 11rem;
+}
+.miami-section-main-h2 {
+  font-family: 'rocablack';
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 3.4px;
+  line-height: 43px;
+}
+.section-main-miami, .section-wrapper-miami {
+    background: #FFFFFF;
+}
+.miami-subt {
+    color: #666666;
+    font-family: 'rocablack';
+    font-size: 23.5px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 49px;
+    margin-left: 11rem;
+  }
+  .section-main-h2-miami {
+    color: #666666;
+    font-family: 'rocablack';
+    font-size: 34px;
+    font-weight: 300;
+    letter-spacing: 3.4px;
+    line-height: 43px;
+    margin-left: 11rem;
+  }
+  .miami-p1t {
+    color: #333333;
+    font-family: 'rocablack';
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 36px;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+    
+}
+.miami-p1 {
+    color: #666666;
+    font-family: 'rocablack';
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 36px;
+    padding-bottom: 4rem;
+    
+}
+
+.miami-p1, .miami-p1t {
+    margin-left: 22rem;
+}
+.row-img_50 {
+    margin-bottom: 3.5rem;
+    margin-top: 3.5rem;
+}
+.img_50 img {
+    min-width: 100%;
+    min-height: 100%;
+}
+.miami-subta {
+    color: #0087C3;
+    font-family: 'rocablack';
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 0.12px;
+    line-height: 46px;
+    margin-left: 11rem;
+}
+.miami-p2t {
+    color: #333333;
+    font-family: 'rocablack';
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 36px;
+    margin-bottom: 0;
+    margin-bottom: 1rem;
+}
+.miami-p2 {
+    color: #666666;
+    font-family: 'rocablack';
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 36px;
+    padding-bottom: 4rem;
+}
+.container-wrapper-miami-slider {
+    background: #FFFFFF;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    img {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+}
+.miami-wrapper-h1, .miami-wrapper-h1 br {
+  color: #666666;
+  font-family: 'rocablack';
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3.81px;
+  line-height: 49px;
+}
+.miami-wrapper-h1 span {
+    box-sizing: border-box;
+    border-bottom: 4px solid #7F7F7F;
+    color: transparent;
+    margin-right: 42rem; 
+}
+.img-bg img {
+    min-width: 100%;
+}
+.footer-video-city-miami {
+    margin-top: 0;
+    font-weight: 300;
+    color: #FFFFFF!important;
+    text-decoration: none!important;
+    display: inline-block;
+    text-align: center;
+    line-height: 5.5rem!important;
+    height: 56px;
+    width: 182px;
+    opacity: 0.75;
+    border-radius: 30px;
+    background-color: black;
+    font-size: 1.7rem;
+    margin-bottom: 5%;
+    margin-right: 0;
+    margin-left: 13rem;
+}
+.footer-video-city-miami p {
+    display: inline-block;    
+}
+.city-miami-p1 {
+    color: #666666;
+    font-family: "PT Serif", serif;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 48px;
+    margin-right: 12rem;
+    margin-top: 6rem
+}
+.section-city-miami-h3 {
+    color: #666666;
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    letter-spacing: 0.4rem;
+    line-height: 57px;
+    margin-left: 12rem;
+    margin-top: 0;
+    
+}
+.section-main-h2-city-miami {
+    color: #333333;
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 9.5rem;
+    letter-spacing: 26.67px;
+    line-height: 9.5rem;
+    margin-left: 12rem;
+    margin-top: 0;
+    span {
+        padding-left: 10.5rem;
+        }
+    
+}
+.city-miami-mainh2 {
+    color: #333333;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin: 0rem 0rem 2rem 20rem;
+}
+
+.city-miami-main-p1 {
+     color: #666666;
+     font-family: "PT Serif", serif;
+     font-size: 24px;
+     letter-spacing: 0;
+     line-height: 48px;
+     margin-right: 25rem;
+     margin-left: 20rem;
+}
+ #buttonbtn {
+    color: #FFFFFF;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 4px;
+    line-height: 28px;
+    margin: 0rem 0rem 2rem 20rem;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #0087C3;
+}
+.row .col-6 img {
+    min-width: 100%;
+    max-width: 65rem;
+}
+#imglogo img {
+    min-width: auto;
+    max-width: none;
+}
